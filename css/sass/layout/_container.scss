@@ -1,0 +1,66 @@
+.wrap {
+	@extend %clearfix;
+	width: 100%;
+	margin: auto;
+	.container {
+		@extend %clearfix;
+		max-width: 1209px;
+		width: 100%;
+		margin: auto;
+	}
+}
+.img-responsive {
+	width: 100%;
+}
+.btn-als {
+	background: transparent;
+	padding: 10px 14px;
+	border: 1px solid $color-1;
+	color: $color-1;
+}
+.form-als {
+	input {
+		text-indent: 10px;
+		width: 221px;
+		height: 33px;
+		border: 1px solid $color-2;
+		background: transparent;
+	}
+	select {
+		background: transparent;
+		width: 100px;
+		height: 33px;
+		border: 1px solid $color-2;
+		option {
+			background: $color-2;
+		}
+	}
+	// Upload file
+	.file-upload {
+		background: $color-a;
+		position: relative;
+		overflow: hidden;
+		border: none;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.file-upload input.upload {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+		cursor: pointer;
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	#fileuploadurl {
+		display: inline-block;
+		border: none;
+		vertical-align: middle;
+		font-size: 11px;
+		padding-left: 0;
+		width: 220px;
+	}
+}
