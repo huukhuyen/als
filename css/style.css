@@ -682,6 +682,45 @@ button:focus, input:focus, a:focus, .btn:focus {
   color: #ffffff;
 }
 
+.content .section-slider-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.content .section-slider-img .item .slider-left {
+  position: relative;
+  float: left;
+  width: 100%;
+  max-width: 1057px;
+  max-height: 506px;
+}
+
+.content .section-slider-img .item .slider-left img {
+  float: left;
+}
+
+.content .section-slider-img .item .slider-left .caption-slider {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  font-weight: bold;
+}
+
+.content .section-slider-img .item .slider-right {
+  float: left;
+  width: 100%;
+  max-width: 290px;
+}
+
+.content .section-slider-img .item .slider-right img {
+  max-width: 309px;
+  float: left;
+  max-height: 254px;
+}
+
 .content .section-service {
   padding: 50px 0;
 }
@@ -795,12 +834,6 @@ button:focus, input:focus, a:focus, .btn:focus {
 
 .content .section-news .news-left #carousel-news .carousel-indicators li.active {
   background: #00415c;
-}
-
-.content .section-news .news-right {
-  border-top: 1px solid #cecece;
-  margin-top: 30px;
-  padding-top: 20px;
 }
 
 .content .section-news .news-right .news-item li {
@@ -1450,7 +1483,12 @@ button:focus, input:focus, a:focus, .btn:focus {
     background: #ffffff;
     padding: 10px 0;
   }
-  .content .section-news .title-section {
+  .content .section-news .news-right {
+    border-top: 1px solid #cecece;
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  .content .section-news .news-right .title-section {
     text-align: center;
     padding: 0 0 20px;
   }
@@ -1513,7 +1551,7 @@ button:focus, input:focus, a:focus, .btn:focus {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .pd-15-rp {
     padding: 0 15px;
   }
@@ -1599,7 +1637,19 @@ button:focus, input:focus, a:focus, .btn:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header .name-corp {
+    padding: 22px 0 0 25px !important;
+  }
+  .menu .toggle-menu {
+    display: none;
+  }
+  .menu .nav .content-nav {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
   .header .name-corp {
     padding: 22px 0 0 25px !important;
   }

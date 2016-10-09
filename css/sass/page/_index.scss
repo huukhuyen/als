@@ -78,6 +78,41 @@
             }
         }
     }
+    .section-slider-img {
+        width: 100%;
+        overflow: hidden;
+        .item {
+            .slider-left {
+                position: relative;
+                float: left;
+                width: 100%;
+                max-width: 1057px;
+                max-height: 506px;
+                img{
+                    float: left;
+                }
+                .caption-slider{
+                    font-size: 20px;
+                    color: $color-a;
+                    text-transform: uppercase;
+                    position: absolute;
+                    bottom: 5%;
+                    right: 5%;
+                    font-weight: bold;
+                }
+            }
+            .slider-right {
+                float: left;
+                width: 100%;
+                max-width: 290px;
+                img{
+                    max-width: 309px;
+                    float: left;
+                    max-height: 254px;
+                }
+            }
+        }
+    }
     .section-service {
         @extend %clearfix;
         padding: 50px 0;
@@ -183,9 +218,6 @@
             }
         }
         .news-right {
-            border-top: 1px solid #cecece;
-            margin-top: 30px;
-            padding-top: 20px;
             .news-item {
                 li {
                     line-height: 35px;
@@ -677,7 +709,7 @@
         }
     }
 }
-@include mobile {
+@include xs {
     .pd-15-rp {
         padding: 0 15px;
     }
@@ -811,9 +843,14 @@
         .section-news {
             background: $color-a;
             padding: 10px 0;
-            .title-section {
-                text-align: center;
-                padding: 0 0 20px;
+            .news-right {
+                border-top: 1px solid #cecece;
+                margin-top: 30px;
+                padding-top: 20px;
+                .title-section {
+                    text-align: center;
+                    padding: 0 0 20px;
+                }
             }
         }
         .section-body {
@@ -889,7 +926,7 @@
         }
     }
 };
-@include tablet {
+@include sm {
     .pd-15-rp {
         padding: 0 15px;
     }
@@ -996,7 +1033,7 @@
         }
     }
 };
-@include desktop {
+@include md {
     .header {
         .name-corp {
             padding: 22px 0 0 25px !important;
@@ -1013,3 +1050,20 @@
         }
     }
 };
+@include lg {
+    .header {
+        .name-corp {
+            padding: 22px 0 0 25px !important;
+        }
+    }
+    .menu {
+        .toggle-menu {
+            display: none;
+        }
+        .nav {
+            .content-nav {
+                display: block!important;
+            }
+        }
+    }
+}
