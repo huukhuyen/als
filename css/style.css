@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, address,
@@ -103,6 +104,21 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 img {
   max-width: 100%;
+  position: relative;
+}
+
+img:after {
+  content: "" " " attr(alt);
+  font-size: 16px;
+  font-family: FontAwesome;
+  color: #646464;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
 }
 
 li, ol {
@@ -143,10 +159,6 @@ button:focus, input:focus, a:focus, .btn:focus {
   max-width: 1209px;
   width: 100%;
   margin: auto;
-}
-
-.img-responsive {
-  width: 100%;
 }
 
 .btn-als {
@@ -1023,7 +1035,6 @@ button:focus, input:focus, a:focus, .btn:focus {
 }
 
 .content .section-body-news .body-left .item-list li:last-child {
-  border-bottom: none;
   padding-bottom: 20px;
 }
 
@@ -1033,6 +1044,7 @@ button:focus, input:focus, a:focus, .btn:focus {
 }
 
 .content .section-body-news .body-left .item-list li.download a {
+  line-height: 20px;
   padding-left: 20px;
 }
 
@@ -1045,12 +1057,18 @@ button:focus, input:focus, a:focus, .btn:focus {
   border-bottom: 1px solid #f2f2f2;
 }
 
+.content .section-body-news .body-right .pd:first-child {
+  padding-top: 0 !important;
+}
+
 .content .section-body-news .body-right .pd .name-news h2 {
+  line-height: 20px;
   color: #066F9A;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .content .section-body-news .body-right .pd .name-news p {
+  line-height: 20px;
   color: #58595b;
 }
 
@@ -1063,20 +1081,31 @@ button:focus, input:focus, a:focus, .btn:focus {
 }
 
 .content .section-body-news .body-right .pd .name-news .description {
-  margin: 15px 0 25px;
+  margin: 7px 0 20px;
   text-align: justify;
 }
 
 .content .section-body-news .body-right .pd .name-news .view-more {
   padding: 8px 10px;
-  border: 1px solid #00415c;
-  color: #00415c;
+  border: 1px solid #066F9A;
+  color: #066F9A;
+}
+
+.content .section-body-news .body-right .item-thumbnail img {
+  text-align: center;
+  border: 1px solid #E5E5E5;
 }
 
 .content .section-body-news .body-right .content-news p {
   padding: 10px 0;
   text-align: justify;
   line-height: 24px;
+}
+
+.content .section-body-news .body-right .content-news .heading-news {
+  font-size: 18px;
+  color: #066F9A;
+  padding: 0;
 }
 
 .content .section-body-news .body-right .content-news .slide .item {
@@ -1117,9 +1146,14 @@ button:focus, input:focus, a:focus, .btn:focus {
 }
 
 .content .section-body-news .body-right .form-1 select {
+  background: #ffffff;
   color: #066F9A;
   margin: 0 15px;
   border: 1px solid #066F9A;
+}
+
+.content .section-body-news .body-right .form-1 select option {
+  background: #ffffff;
 }
 
 .content .section-body-news .body-right .form-1 .btn-search {
@@ -1145,7 +1179,7 @@ button:focus, input:focus, a:focus, .btn:focus {
 .content .section-body-news .body-right .title-content h2:after {
   content: "";
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   width: 80%;
   height: 1px;
@@ -1297,7 +1331,7 @@ button:focus, input:focus, a:focus, .btn:focus {
 }
 
 .content .section-contact .mg {
-  padding: 0px 0 20px 0;
+  padding: 0 0 20px;
 }
 
 .content .section-contact .fa {
@@ -1325,7 +1359,7 @@ button:focus, input:focus, a:focus, .btn:focus {
   position: relative;
   font-size: 20px;
   color: #066F9A;
-  margin: 20px 0 5px 0;
+  margin: 20px 0 5px;
 }
 
 .content .section-contact .title-section-branch h2:after {
@@ -1368,6 +1402,9 @@ button:focus, input:focus, a:focus, .btn:focus {
 }
 
 @media (max-width: 768px) {
+  .img-responsive {
+    width: 100%;
+  }
   .pd-15-rp {
     padding: 0 15px;
   }
@@ -1491,6 +1528,22 @@ button:focus, input:focus, a:focus, .btn:focus {
   .content .section-news .news-right .title-section {
     text-align: center;
     padding: 0 0 20px;
+  }
+  .content .section-body-news .body-right .pd {
+    padding: 10px 0;
+  }
+  .content .section-body-news .body-right .item-document-btn {
+    float: none;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .content .section-body-news .body-right .item-document-btn .btn-als {
+    padding: 20px;
+  }
+  .content .section-body-news .body-right .name-news h2 {
+    text-align: justify;
+    padding: 10px 0;
   }
   .content .section-body .content-body .title-section {
     margin: 30px 0;

@@ -88,10 +88,10 @@
                 width: 100%;
                 max-width: 1057px;
                 max-height: 506px;
-                img{
+                img {
                     float: left;
                 }
-                .caption-slider{
+                .caption-slider {
                     font-size: 20px;
                     color: $color-a;
                     text-transform: uppercase;
@@ -105,7 +105,7 @@
                 float: left;
                 width: 100%;
                 max-width: 290px;
-                img{
+                img {
                     max-width: 309px;
                     float: left;
                     max-height: 254px;
@@ -355,22 +355,22 @@
                 }
                 .sub-list {
                     padding: 20px 0;
-                    i{
+                    i {
                         color: $color-2;
                         padding-right: 10px;
                     }
                 }
             }
             .item-accordion {
-                li{
-                    .sub-accordion{
+                li {
+                    .sub-accordion {
                         cursor: pointer;
                         text-transform: uppercase;
                         color: $color-2;
                         border-bottom: 1px solid $color-f2;
                         padding-bottom: 10px;
                     }
-                    .active{
+                    .active {
                         display: block!important;
                     }
                     padding: 10px 0;
@@ -387,13 +387,14 @@
                     padding: 10px 0;
                     border-bottom: 1px solid $color-f2;
                     &:last-child {
-                        border-bottom: none;
+                        // border-bottom: none;
                         padding-bottom: 20px;
                     }
                     &.download {
                         display: flex;
                         align-items: center;
                         a {
+                            line-height: 20px;
                             padding-left: 20px;
                         }
                     }
@@ -403,14 +404,19 @@
         .body-right {
             padding: 40px 0;
             .pd {
+                &:first-child{
+                    padding-top: 0!important;
+                }
                 padding: 30px 0;
                 border-bottom: 1px solid $color-f2;
                 .name-news {
                     h2 {
+                        line-height: 20px;
                         color: $color-2;
-                        padding-bottom: 10px;
+                        padding-bottom: 5px;
                     }
                     p {
+                        line-height: 20px;
                         color: $color-d;
                         i {
                             padding-right: 10px;
@@ -420,21 +426,32 @@
                         }
                     }
                     .description {
-                        margin: 15px 0 25px;
+                        margin: 7px 0 20px;
                         text-align: justify;
                     }
                     .view-more {
                         padding: 8px 10px;
-                        border: 1px solid $color-1;
-                        color: $color-1;
+                        border: 1px solid $color-2;
+                        color: $color-2;
                     }
                 }
             }
+            .item-thumbnail {
+                img {
+                    text-align: center;
+                    border: 1px solid $color-b;
+                }
+            }
             .content-news {
-                p{
+                p {
                     padding: 10px 0;
                     text-align: justify;
                     line-height: 24px;
+                }
+                .heading-news {
+                    font-size: 18px;
+                    color: $color-2;
+                    padding: 0;
                 }
                 .slide {
                     .item {
@@ -445,7 +462,7 @@
                     .carousel-indicators {
                         position: relative;
                         bottom: -5px;
-                        li{
+                        li {
                             border: none;
                             background: $color-d;
                             &.active {
@@ -471,9 +488,13 @@
                     background: $color-2;
                 }
                 select {
+                    background: $color-a;
                     color: $color-2;
                     margin: 0 15px;
                     border: 1px solid $color-2;
+                    option {
+                        background: $color-a;
+                    }
                 }
                 .btn-search {
                     color: $color-a;
@@ -490,12 +511,12 @@
                 padding: 15px 0;
             }
             .title-content {
-                h2{
+                h2 {
                     position: relative;
                     &:after {
                         content: "";
                         position: absolute;
-                        bottom: 0px;
+                        bottom: 0;
                         right: 0;
                         width: 80%;
                         height: 1px;
@@ -581,13 +602,13 @@
                             padding: 10px 0;
                             color: $color-2;
                         }
-                        .fa{
+                        .fa {
                             padding-right: 5px;
                         }
                         .fa-user {
                             padding-left: 20px;
                         }
-                        .description{
+                        .description {
                             padding: 10px 0;
                             text-align: justify;
                         }
@@ -598,13 +619,12 @@
                     border: 1px solid $color-f2;
                     background: $color-a;
                     padding: 5px;
-
                 }
-                .item{
+                .item {
                     border: 1px solid $color-f2;
                     background: $color-a;
                     padding: 10px;
-                    .carousel-caption{
+                    .carousel-caption {
                         text-transform: uppercase;
                         bottom: 15px;
                         right: 40px;
@@ -615,7 +635,7 @@
             }
             .content-nopdon {
                 .form-als {
-                    input{
+                    input {
                         border: 1px solid $color-2;
                         text-indent: 30px;
                         margin: 5px 0;
@@ -644,7 +664,7 @@
         @extend %clearfix;
         padding: 20px 0;
         .mg {
-            padding: 0px 0 20px 0;
+            padding: 0 0 20px;
         }
         .fa {
             color: $color-2;
@@ -660,7 +680,7 @@
                 line-height: 24px;
             }
         }
-        .bdr_bottom{
+        .bdr_bottom {
             padding-bottom: 20px;
             border-bottom: 1px solid $color-f2;
         }
@@ -669,7 +689,7 @@
                 position: relative;
                 font-size: 20px;
                 color: $color-2;
-                margin: 20px 0 5px 0;
+                margin: 20px 0 5px;
                 &:after {
                     content: "";
                     position: absolute;
@@ -710,6 +730,9 @@
     }
 }
 @include xs {
+    .img-responsive {
+    	width: 100%;
+    }
     .pd-15-rp {
         padding: 0 15px;
     }
@@ -850,6 +873,28 @@
                 .title-section {
                     text-align: center;
                     padding: 0 0 20px;
+                }
+            }
+        }
+        .section-body-news {
+            .body-right {
+                .pd{
+                    padding: 10px 0;
+                }
+                .item-document-btn {
+                    float: none;
+                    margin: 15px auto;
+                    display: flex;
+                    justify-content: center;
+                    .btn-als {
+                        padding: 20px;
+                    }
+                }
+                .name-news {
+                    h2 {
+                        text-align: justify;
+                        padding: 10px 0;
+                    }
                 }
             }
         }
