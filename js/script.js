@@ -1,7 +1,15 @@
 $(document).ready(function() {
     // Menu responsive
     $('.toggle-menu').click(function() {
-        $('.content-nav').slideToggle(400);
+        $('.menu-mobile').slideToggle(400);
+    });
+
+    // $(".menu-mobile").hide();
+    $('.menu-mobile .fa-plus').click(function(event) {
+        $(this).toggleClass("fa-plus fa-minus");
+    });
+    $('.panel-heading .fa-angle-right').click(function(event) {
+        $(this).toggleClass("fa-angle-right fa-angle-down");
     });
 
     // language
@@ -43,9 +51,3 @@ $(document).ready(function() {
     }
     scrolltop();
 });
-
-
-// Upload file
-document.getElementById("FileAttachment").onchange = function() {
-    document.getElementById("fileuploadurl").value = this.value;
-};

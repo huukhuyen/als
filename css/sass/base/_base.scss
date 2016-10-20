@@ -11,9 +11,9 @@ a {
   line-height: 0;
   text-decoration: none;
   &:hover {
-      color: $color-2;
-      @include transition(all 400ms);
-        text-decoration: none;
+    color: $color-2;
+    @include transition(all 400ms);
+    text-decoration: none;
   }
   &:focus {
     text-decoration: none;

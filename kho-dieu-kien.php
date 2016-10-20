@@ -24,7 +24,7 @@
             <section class="section-body-news">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 hidden-sm hidden-xs">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
                             <article class="body-left">
                                 <div class="item-list-full">
                                     <h2 class="title-list"><a href="">DỊCH VỤ HÀNG HÓA HÀNG KHÔNG</a></h2>
@@ -48,7 +48,7 @@
                                         <li><i class="fa fa-angle-right"></i><a href="">Cho thuê biển quảng cáo</a></li>
                                     </ul>
                                 </div>
-                                <div class="section-follow">
+                                <div class="section-follow hidden-xs">
                                     <div class="fb-page" data-href="https://www.facebook.com/vivicorp/" data-width="440" data-hide-cover="false" data-show-facepile="true">
                                     </div>
                                     <!-- Video -->
@@ -63,7 +63,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="col-md-8 col-xs-12 col-sm-12">
+                        <div class="col-md-8 col-xs-12 col-sm-8">
                             <article class="body-right">
                                 <div class="title-content">
                                     <h2>Kho điều kiện thường</h2>

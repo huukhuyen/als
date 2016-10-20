@@ -58,7 +58,7 @@
                                                     <input type="file" name="" id="FileAttachment" class="upload" />
                                                 </div>
                                                 <button type="reset" class="btn-reset" name="">Hủy</button>
-                                                <button type="button" class="btn-send" name="">Gửi</button>
+                                                <button type="submit" class="btn-send" name="">Gửi</button>
                                              <input type="text" id="fileuploadurl" readonly placeholder="Đính kèm tệp">
                                             </form>
                                         </div>
@@ -89,6 +89,12 @@
         <?php require_once('block/footer.php'); ?>
     </div>
     <?php require_once('block/script.php'); ?>
+    <script type="text/javascript">
+        // Upload file
+        document.getElementById("FileAttachment").onchange = function() {
+            document.getElementById("fileuploadurl").value = this.value;
+        };
+    </script>
 </body>
 
 </html>

@@ -349,12 +349,48 @@
         .body-left {
             padding: 40px 0;
             .item-list-full {
+                line-height: 24px;
                 .title-list {
                     text-transform: uppercase;
                     color: $color-2;
                 }
+                i {
+                    color: $color-2;
+                }
                 .sub-list {
                     padding: 20px 0;
+                    i {
+                        color: $color-2;
+                        padding-right: 10px;
+                    }
+                    a{
+                        color: $color-g;
+                        &:hover {
+                            color: $color-2;
+                        }
+                    }
+                }
+                h4 {
+                    font-weight: bold;
+                    padding-top: 5px;
+                    text-transform: none;
+                    i {
+                        padding-right: 5px;
+                    }
+                }
+                .sub-list-sp {
+                    padding: 10px 0;
+                    li {
+                        padding: 5px 0 5px 10px;
+                        border-bottom: 1px solid $color-b;
+                        a{
+                            color: $color-g;
+                            &:hover {
+                                font-weight: bold;
+                                color: $color-o;
+                            }
+                        }
+                    }
                     i {
                         color: $color-2;
                         padding-right: 10px;
@@ -404,8 +440,8 @@
         .body-right {
             padding: 40px 0;
             .pd {
-                &:first-child{
-                    padding-top: 0!important;
+                &:first-child {
+                    padding-top: 0 !important;
                 }
                 padding: 30px 0;
                 border-bottom: 1px solid $color-f2;
@@ -452,6 +488,12 @@
                     font-size: 18px;
                     color: $color-2;
                     padding: 0;
+                }
+                .btn-nop {
+                    text-transform: uppercase;
+                    padding: 10px 14px;
+                    background: $color-cam;
+                    color: $color-a;
                 }
                 .slide {
                     .item {
@@ -731,7 +773,7 @@
 }
 @include xs {
     .img-responsive {
-    	width: 100%;
+        width: 100%;
     }
     .pd-15-rp {
         padding: 0 15px;
@@ -878,7 +920,7 @@
         }
         .section-body-news {
             .body-right {
-                .pd{
+                .pd {
                     padding: 10px 0;
                 }
                 .item-document-btn {
