@@ -12,6 +12,12 @@ $(document).ready(function() {
         $(this).toggleClass("fa-angle-right fa-angle-down");
     });
 
+    // Footer
+    $('.branch-left .fa, .branch-right .fa').click(function(event) {
+        $(this).toggleClass('fa-angle-down fa-angle-right');
+        $(this).parent().next().toggle('400');
+    });;
+
     // language
     $('.language .sub').hide()
     $('.language li i.fa').click(function(event) {

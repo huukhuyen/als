@@ -1,7 +1,6 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-
             <div class="footer-left">
                 <div class="title-section">
                     <h2>Công ty Cổ phần Logistics Hàng không (ALS)</h2>
@@ -32,67 +31,81 @@
                     <div class="branch-other">
                         <div class="branch-1">
                             <div class="branch-left">
-                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB)</h2>
-                                <p> Lô CN05, đường YP6, KCN YênPhong,</p>
-                                <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
-                                <p>0241 369 9868</p>
-                                <p>0241 369 9238</p>
-                                <p>contact.alsb@als.com.vn</p>
+                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB) <i class="fa fa-angle-down right hidden-lg hidden-md "></i></h2>
+                                <div class="content-branch-left">
+                                    <p> Lô CN05, đường YP6, KCN YênPhong,</p>
+                                    <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
+                                    <p>0241 369 9868</p>
+                                    <p>0241 369 9238</p>
+                                    <p>contact.alsb@als.com.vn</p>
+                                </div>
                             </div>
                             <div class="branch-right">
-                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB)</h2>
-                                <p> Lô CN05, đường YP6, KCN YênPhong,</p>
-                                <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
-                                <p>0241 369 9868</p>
-                                <p>0241 369 9238</p>
-                                <p>contact.alsb@als.com.vn</p>
+                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB) <i class="fa fa-angle-down right hidden-lg hidden-md"></i></h2>
+                                <div class="content-branch-left">
+                                    <p> Lô CN05, đường YP6, KCN YênPhong,</p>
+                                    <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
+                                    <p>0241 369 9868</p>
+                                    <p>0241 369 9238</p>
+                                    <p>contact.alsb@als.com.vn</p>
+                                </div>
                             </div>
                         </div>
                         <div class="branch-1">
                             <div class="branch-left">
-                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB)</h2>
-                                <p> Lô CN05, đường YP6, KCN YênPhong,</p>
-                                <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
-                                <p>0241 369 9868</p>
-                                <p>0241 369 9238</p>
-                                <p>contact.alsb@als.com.vn</p>
+                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB) <i class="fa fa-angle-down right hidden-lg hidden-md"></i></h2>
+                                <div class="content-branch-left">
+                                    <p> Lô CN05, đường YP6, KCN YênPhong,</p>
+                                    <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
+                                    <p>0241 369 9868</p>
+                                    <p>0241 369 9238</p>
+                                    <p>contact.alsb@als.com.vn</p>
+                                </div>
                             </div>
                             <div class="branch-right">
-                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB)</h2>
-                                <p> Lô CN05, đường YP6, KCN YênPhong,</p>
-                                <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
-                                <p>0241 369 9868</p>
-                                <p>0241 369 9238</p>
-                                <p>contact.alsb@als.com.vn</p>
+                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB) <i class="fa fa-angle-down right hidden-lg hidden-md"></i></h2>
+                                <div class="content-branch-left">
+                                    <p> Lô CN05, đường YP6, KCN YênPhong,</p>
+                                    <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
+                                    <p>0241 369 9868</p>
+                                    <p>0241 369 9238</p>
+                                    <p>contact.alsb@als.com.vn</p>
+                                </div>
                             </div>
                         </div>
                         <div class="branch-1">
                             <div class="branch-left">
-                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB)</h2>
-                                <p> Lô CN05, đường YP6, KCN YênPhong,</p>
-                                <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
-                                <p>0241 369 9868</p>
-                                <p>0241 369 9238</p>
-                                <p>contact.alsb@als.com.vn</p>
+                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB) <i class="fa fa-angle-down right hidden-lg hidden-md"></i></h2>
+                                <div class="content-branch-left">
+                                    <p> Lô CN05, đường YP6, KCN YênPhong,</p>
+                                    <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
+                                    <p>0241 369 9868</p>
+                                    <p>0241 369 9238</p>
+                                    <p>contact.alsb@als.com.vn</p>
+                                </div>
                             </div>
                             <div class="branch-right">
-                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB)</h2>
-                                <p> Lô CN05, đường YP6, KCN YênPhong,</p>
-                                <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
-                                <p>0241 369 9868</p>
-                                <p>0241 369 9238</p>
-                                <p>contact.alsb@als.com.vn</p>
+                                <h2>Công ty TNHH ALS Bắc Ninh (ALSB) <i class="fa fa-angle-down right hidden-lg hidden-md"></i></h2>
+                                <div class="content-branch-left">
+                                    <p> Lô CN05, đường YP6, KCN YênPhong,</p>
+                                    <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
+                                    <p>0241 369 9868</p>
+                                    <p>0241 369 9238</p>
+                                    <p>contact.alsb@als.com.vn</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="branch-1">
                         <div class="branch-left">
                             <h2>Công ty TNHH MTV Nhà ga hàng hóa ALS (ALSC)</h2>
-                            <p>Tầng 4, Ga hàng hóa ALS, Cảng Hàng không Quốc tế Nội Bài,</p>
-                            <p>xã Phú Minh, huyện Sóc Sơn, thành phố Hà Nội</p>
-                            <p>+84 4 35843470</p>
-                            <p>+84 4 35843470</p>
-                            <p>contact.alsc@als.com.vn</p>
+                            <div class="content-branch-left">
+                                <p> Lô CN05, đường YP6, KCN YênPhong,</p>
+                                <p>Xã Yên Trung, huyện Yên Phong, tỉnh Bắc Ninh</p>
+                                <p>0241 369 9868</p>
+                                <p>0241 369 9238</p>
+                                <p>contact.alsb@als.com.vn</p>
+                            </div>
                         </div>
                         <div class="branch-right hidden-xs">
                             <div class="social">
@@ -111,7 +124,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <div class="bdr-bottom"></div>
     <div class="copyright-ft">

@@ -26,7 +26,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-xs-12">
-                            <article class="body-left">
+                            <article class="body-left hidden-sm hidden-xs">
                                 <div class="section-follow">
                                     <div class="fb-page" data-href="https://www.facebook.com/vivicorp/" data-width="440" data-hide-cover="false" data-show-facepile="true">
                                     </div>
@@ -53,7 +53,9 @@
                                             <option value="">Import</option>
                                         </select>
                                         <button type="button" class="btn-als">Tìm kiếm</button>
-                                        <div><button type="button" class="btn-als btn-search">Tìm kiếm nâng cao</button></div>
+                                        <!-- Advance mobile -->
+                                        <button type="button" class="btn-als btn-search hidden-lg hidden-md">Tìm kiếm nâng cao</button>
+                                        <div><button type="button" class="btn-als btn-search visible-md visible-lg">Tìm kiếm nâng cao</button></div>
                                     </form>
                                     <p class="export-result">Kết quả Export: </p>
                                 </div>
@@ -102,7 +104,58 @@
                                         </table>
                                     </div>
                                 </div>
-
+                                <!-- table mobile -->
+                                <table class="table table-mobile hidden-lg hidden-md">
+                                    <thead>
+                                        <tr>
+                                            <th>AWB</th>
+                                            <th>618- 9971 2502</th>
+                                        </tr>
+                                    </thead>
+                                  <tr>
+                                      <td>HAWB:</td>
+                                      <td></td>
+                                  </tr>
+                                  <tr>
+                                      <td>Pieces:</td>
+                                      <td>8</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Weight:</td>
+                                      <td>1830</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Commodity</td>
+                                      <td>Consol</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Flight Number</td>
+                                      <td>Consol</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Flight Date</td>
+                                      <td>13-Jan</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Flight Time</td>
+                                      <td>12:00</td>
+                                  </tr>
+                                  <tr>
+                                      <td>Remark</td>
+                                      <td>DOC/BUP THEO <br>
+                                          FFM/17H/:7H-ALSB, <br>
+                                          7H-ALSE,3H-ALST
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>Origin</td>
+                                      <td>SIN</td>
+                                  </tr>
+                                  <tr>
+                                      <td></td>
+                                      <td>HAN</td>
+                                  </tr>
+                                </table>
                                 <div class="table-responsive">
                                     <div class="table-2">
                                         <p class="name-table">Cargo status:</p>
@@ -256,6 +309,19 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                </div>
+                                <div class="section-follow hidden-lg hidden-md">
+                                    <div class="fb-page" data-href="https://www.facebook.com/vivicorp/" data-width="440" data-hide-cover="false" data-show-facepile="true">
+                                    </div>
+                                    <!-- Video -->
+                                    <video id="my-video" class="video-js" controls preload="auto" poster="images/bg-video.jpg" data-setup="{}">
+                                        <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.mp4" type='video/mp4'>
+                                        <source src="https://cdn.selz.com/plyr/1.5/View_From_A_Blue_Moon_Trailer-HD.webm" type='video/webm'>
+                                        <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                        </p>
+                                    </video>
                                 </div>
                             </article>
                         </div>
